@@ -22,7 +22,7 @@
 }
 
 body {
-    height:3600px;
+	height:auto;
 }
 
 #maze {
@@ -368,7 +368,12 @@ a img:hover {
           .global-nav .primary{margin-bottom:17px}.global-nav .primary a{padding:5px 20px}.global-nav .secondary>p{padding-top:12px;padding-bottom:4px}}
           @media screen and (max-width:500px) and (-webkit-min-device-pixel-ratio:2),screen and (max-width:500px) and (min--moz-device-pixel-ratio:2),screen and (max-width:500px) and (-moz-min-device-pixel-ratio:2),screen and (max-width:500px) and (-ms-min-device-pixel-ratio:2),screen and (max-width:500px) and (min-device-pixel-ratio:2),screen and (max-width:500px) and (min-resolution:192dpi){.global-header .uber-logo{background:transparent url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/global/logo-mobile-light@2x.png) no-repeat left top}}
           @media screen and (max-width:500px) and (-webkit-min-device-pixel-ratio:2),screen and (max-width:500px) and (min--moz-device-pixel-ratio:2),screen and (max-width:500px) and (-moz-min-device-pixel-ratio:2),screen and (max-width:500px) and (-ms-min-device-pixel-ratio:2),screen and (max-width:500px) and (min-device-pixel-ratio:2),screen and (max-width:500px) and (min-resolution:192dpi){.global-header .uber-logo{background-size:90px 12px}}@media screen and (max-width:500px) and (-webkit-min-device-pixel-ratio:2),screen and (max-width:500px) and (min--moz-device-pixel-ratio:2),screen and (max-width:500px) and (-moz-min-device-pixel-ratio:2),screen and (max-width:500px) and (-ms-min-device-pixel-ratio:2),screen and (max-width:500px) and (min-device-pixel-ratio:2),screen and (max-width:500px) and (min-resolution:192dpi){.light .global-header .uber-logo{background:transparent url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/global/logo-mobile-dark@2x.png) no-repeat left top}}@media screen and (max-width:500px) and (-webkit-min-device-pixel-ratio:2),screen and (max-width:500px) and (min--moz-device-pixel-ratio:2),screen and (max-width:500px) and (-moz-min-device-pixel-ratio:2),screen and (max-width:500px) and (-ms-min-device-pixel-ratio:2),screen and (max-width:500px) and (min-device-pixel-ratio:2),screen and (max-width:500px) and (min-resolution:192dpi){.light .global-header .uber-logo{background-size:90px 12px}}
-          .global-footer{height:145px;padding-top:12px;position:relative;background-color:#070716}.global-footer
+          .global-footer{
+	height:auto;
+	padding-top:12px;
+	position:relative;
+	background-color:#070716
+}.global-footer
           .social{padding:40px 15px;text-align:left}
           .global-footer .social a{margin-right:5px;padding:8px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;font-size:12px;border:1px solid #fff;color:#fff}
           .global-footer .social a:hover{border-color:#070716;background-color:#fff;color:#070716}
@@ -377,7 +382,11 @@ a img:hover {
           .global-footer .navs .language-picker{text-align:center}
           .global-footer .navs .language-picker select{padding:10px 0 0 0;-webkit-appearance:none;background-color:transparent;border:none;outline:0;position:relative;left:0;top:-36px;text-indent:-5000px}
           .global-footer .sign-up{padding:7px 25px;background-color:#1fbad6;position:relative;top:-23px;font-size:14px;color:#fff}
-          .global-footer .primary{padding-top:10px;color:#fff}
+          .global-footer .primary{
+	padding-top:10px;
+	color:#fff;
+	text-align: center;
+}
           .global-footer .primary a{padding:0 15px;font-size:15px;color:#fff}
           .global-footer .secondary a{padding:0 10px;font-size:10px;color:#c2c2c2}
           .global-footer .downloads a{border:1px solid #fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
